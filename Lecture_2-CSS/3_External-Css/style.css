@@ -1,0 +1,6 @@
+h1{
+    float: right;
+    /* position: absolute;s */
+    background-color: blueviolet !important;   /*  iski pirority sabse jada rahegi */
+    display: block;
+}
