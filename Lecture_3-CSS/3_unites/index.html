@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+/* before parent collapse */
+
+.parent1{
+            width: 500px;
+            border: 2px solid black;
+            
+
+
+        }
+
+        .child1,
+        .child2{
+            width: 245px;
+
+        }
+
+        .child1{
+            border: 2px solid rgb(48, 7, 255);
+            
+            
+        }
+        .child2{
+            border: 2px solid red;
+           
+            
+        }
+
+        /* After parent collapse */
+
+
+        .parent2{
+            width: 500px;
+            border: 2px solid black;
+            
+
+
+        }
+
+        .child1-1,
+        .child2-1{
+            width: 245px;
+
+        }
+
+        .child1-1{
+            border: 2px solid rgb(48, 7, 255);
+            float: left;
+            
+        }
+        .child2-1{
+            border: 2px solid red;
+            float: right;
+            
+        }
+
+
+        /* after fix parent collapse */
+        .parent3{
+            width: 500px;
+            border: 2px solid black;
+            
+
+
+        }
+
+        .child1-3,
+        .child2-3{
+            width: 245px;
+
+        }
+
+        .child1-3{
+            border: 2px solid rgb(48, 7, 255);
+            float: left;
+            
+        }
+        .child2-3{
+            border: 2px solid red;
+            float: right;
+            
+        }
+
+        .clearfix{
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h3>Before parent collapse</h3>
+    <div class="parent1">
+        <div class="child1">child1</div>
+        <div class="child2">child1</div>
+    </div>
+<br><br><br>
+
+
+    <h3>After parent collapse</h3>
+    <p>both child out of parents </p>
+    <div class="parent2">
+        <div class="child1-1">child1</div>
+        <div class="child2-1">child1</div>
+    </div>
+
+    <br><br><br>
+
+
+
+
+    <h3>To fix parent collapse</h3>
+    <p>to fix parent collapse we do clear fix in that create one more div(child) in parent at end and apply css property "clear:both" </p>
+
+    <div class="parent3">
+        <div class="child1-3">child1</div>
+        <div class="child2-3">child1</div>
+        <div class="clearfix" ></div>
+    </div>
+</body>
+</html>
