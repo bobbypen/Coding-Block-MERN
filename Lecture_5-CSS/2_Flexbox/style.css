@@ -1,0 +1,20 @@
+.container{
+    border: 2px solid rgb(254, 8, 8);
+    /* height: 300px; */
+display: flex;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+    align-items: center;
+    height: 400px;
+    /* align-content: center; */
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid black;
+    margin: 10px;
+
+    text-align: center;
+}
