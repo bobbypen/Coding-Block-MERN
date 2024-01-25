@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 24px;
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; */
+/* grid-template-columns: repeat(3,300px); */
+
+grid-template-columns: repeat(3,1fr);
+
+    /* grid-template-rows: 100px 100px 100px;
+     *//*both works same */
+
+     grid-template-rows: repeat(3,200px);
+}
+.child{
+    background-color: lightblue;
+    padding: 5px;
+    border: 1px solid black;
+
+
+}
+
+
+.child-1{
+
+
+    /* this property to take place */
+/* grid-row-start: 1;
+grid-row-end: 3; */
+
+/* shorthand */
+
+
+grid-row: 1/2; /*1 se 3 tk*/
+grid-column: 1/4;
+
+
+}

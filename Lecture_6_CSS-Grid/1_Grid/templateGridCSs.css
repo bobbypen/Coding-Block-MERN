@@ -1,0 +1,82 @@
+.container{
+    display: grid;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(20,100px);
+    grid-template-areas: 
+    "one one one"
+    "two three three"
+    "two three three"
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "two three three" 
+    "four four four"
+    ;
+}
+
+.child{
+    border: 1px solid black;
+}
+
+.child-1{
+    background-color: #f4a7e6;
+    grid-area: one;
+    grid-row: 1/2;
+}
+.child-2{   
+    grid-area: two;
+    background-image: url("https://images.pexels.com/photos/");
+}
+.child-3{
+    background-color: #d5ffb8;
+    grid-area: three;
+}
+
+.child-4{
+    background-color: #0b78e6;
+    grid-area: four;
+    grid-row: 21/21;
+}
+
+/* .child-5{
+    background-color: #d5ffb8;
+    grid-area: 5;
+}
+
+.child-6{
+    background-color: #e6e31e;
+    grid-area: 6;
+} */
+
