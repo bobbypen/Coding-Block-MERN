@@ -1,52 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medium – Where good ideas find you.</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/assest/favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assest/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assest/favicon.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/assest/favicon.png" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
     <!-- <--------------------header & Navbar __________------------ -->
 
     <div class="header">
+      <img class="logo" src="/assest/Medium.png" alt="Medium" />
 
-        <img class="logo" src="/Lecture_6_CSS-Grid/Medium Clone/assest/Medium.png" alt="">
-
-        <div class="nav">
-            <ul>
-                <li>Our Stories</li>
-                <li>Membership</li>
-                <li>Write</li>
-                <li>Sign in</li>
-                <li><button> Get Started
-                </button></li>
-            </ul>
-        </div>
-
+      <div class="nav">
+        <ul>
+          <li>Our Stories</li>
+          <li>Membership</li>
+          <li>Write</li>
+          <li>Sign in</li>
+          <li><button>Get Started</button></li>
+        </ul>
+      </div>
     </div>
 
     <!-- <--------------------End of header & Navbar __________------------ -->
 
-
     <!-- <--------------------Main page __________------------ -->
 
+    <div class="main">
+      <div class="main-1">
+        <div class="main-head">
+          <h2 class="main-h2">Stay curious.</h2>
+          <h3 class="main-h3">
+            Discover stories, thinking, and expertise <br />from writers on any
+            topic.
+          </h3>
+          <button class="btn">Get reading</button>
+        </div>
+      </div>
+    </div>
 
-        <div class="main">
-            <div class="main-1">
-                <div class="main-head">
-                <h2 class="main-h2" >Stay curious.</h2>
-                <h3 class="main-h3">Discover stories, thinking, and expertise <br>from writers on any topic.</h3>
-                <button class="btn" > Get reading
-                </button>
-            </div>
-            </div>
+    <!------------- End of main page ____________---------- -->
+
+    <div class="trending">
+      <div class="trending-container">
+        <!--------------------------------- trending head ---------------------- -->
+
+        <div class="trending-head">
+          <div class="trending-img" style="height: 20px; width: 20px"></div>
+
+          <div class="trending-h1">
+            <p><b>Trending On Medium</b></p>
+          </div>
         </div>
 
-    
-</body>
+        <!---------------------------------End of trending head ---------------------- -->
+        <div class="parent">
+          <div class="child child-1">
+            <!-- https://source.unsplash.com/1600x900/?photo -->
+
+            <div class="child-author">
+              <div class="article" style="height: 20px"><b>01</b></div>
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+
+            <div class="trending-h6">
+              <h5><b>I Don’t Know Where I’m Going, But I’m Coming</b></h5>
+            </div>
+
+            <div class="trending-status">
+              <p>Jan 22</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>2 min read</p>
+            </div>
+          </div>
+
+          <div class="child child-1">
+            <!-- https://source.unsplash.com/1600x900/?photo -->
+
+            <div class="child-author">
+              <div class="article" style="height: 20px"><b>02</b></div>
+              <div class="author-img"></div>
+              <div class="author-info"><p>Sivan Hermon in UK</p></div>
+            </div>
+
+            <div class="trending-h6">
+              <h5>
+                <b>Starting with No: Why Most People Shouldn’t Be Managers </b>
+              </h5>
+            </div>
+
+            <div class="trending-status">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+
+          <div class="child child-1">
+            <!-- https://source.unsplash.com/1600x900/?photo -->
+
+            <div class="child-author">
+              <div class="article" style="height: 20px"><b>03</b></div>
+              <div class="author-img"></div>
+              <div class="author-info"><p>Andrew Zuo</p></div>
+            </div>
+
+            <div class="trending-h6">
+              <h5><b>Why the new AI Pin will be a usability nightmare </b></h5>
+            </div>
+
+            <div class="trending-status">
+              <p>Jan 28</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>42 min read</p>
+            </div>
+          </div>
+
+          <div class="child child-1">
+            <!-- https://source.unsplash.com/1600x900/?photo -->
+
+            <div class="child-author">
+              <div class="article" style="height: 20px"><b>04 </b></div>
+              <div class="author-img"></div>
+              <div class="author-info"><p>Bobby Yadav</p></div>
+            </div>
+
+            <div class="trending-h6">
+              <h5><b>The thing about Arsenal and public analysis </b></h5>
+            </div>
+
+            <div class="trending-status">
+              <p>Jan 22</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>59 min read</p>
+            </div>
+          </div>
+
+          <div class="child child-1">
+            <!-- https://source.unsplash.com/1600x900/?photo -->
+
+            <div class="child-author">
+              <div class="article" style="height: 20px"><b>05</b></div>
+              <div class="author-img"></div>
+              <div class="author-info"><p>Patrícia Williams</p></div>
+            </div>
+
+            <div class="trending-h6">
+              <h5><b> The Tech Job Bubble Has Burst</b></h5>
+            </div>
+
+            <div class="trending-status">
+              <p>Jan 31</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>23 min read</p>
+            </div>
+          </div>
+
+          <div class="child child-1">
+            <!-- https://source.unsplash.com/1600x900/?photo -->
+
+            <div class="child-author">
+              <div class="article" style="height: 20px"><b>06</b></div>
+              <div class="author-img"></div>
+              <div class="author-info"><p>Mystic Minds</p></div>
+            </div>
+
+            <div class="trending-h6">
+              <h5><b>AI is future. </b></h5>
+            </div>
+
+            <div class="trending-status">
+              <p>Jan 29</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <br /><br /><br /><br />
+
+    <!-- -----------------------------Post section ------------------------ -->
+    <div class="hero-section">
+      <div class="left-section">
+        <div class="left-article">
+          <div class="article-1">
+            <div class="child-author">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Looking at a Familiar Place From a New Angle</h2>
+            </div>
+            <div class="caption">
+              <p>A fly fisher discovers the wonders of a river’s surface</p>
+            </div>
+
+            <div class="trending-status-left">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+          <div class="article-img"></div>
+        </div>
+
+        <div class="left-article">
+          <div class="article-1">
+            <div class="child-author">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Looking at a Familiar Place From a New Angle</h2>
+            </div>
+            <div class="caption">
+              <p>A fly fisher discovers the wonders of a river’s surface</p>
+            </div>
+
+            <div class="trending-status-left">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+          <div class="article-img"></div>
+        </div>
+
+        <div class="left-article">
+          <div class="article-1">
+            <div class="child-author">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Looking at a Familiar Place From a New Angle</h2>
+            </div>
+            <div class="caption">
+              <p>A fly fisher discovers the wonders of a river’s surface</p>
+            </div>
+
+            <div class="trending-status-left">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+          <div class="article-img"></div>
+        </div>
+
+        <div class="left-article">
+          <div class="article-1">
+            <div class="child-author">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Looking at a Familiar Place From a New Angle</h2>
+            </div>
+            <div class="caption">
+              <p>A fly fisher discovers the wonders of a river’s surface</p>
+            </div>
+
+            <div class="trending-status-left">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+          <div class="article-img"></div>
+        </div>
+
+        <div class="left-article">
+          <div class="article-1">
+            <div class="child-author">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Looking at a Familiar Place From a New Angle</h2>
+            </div>
+            <div class="caption">
+              <p>A fly fisher discovers the wonders of a river’s surface</p>
+            </div>
+
+            <div class="trending-status-left">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+          <div class="article-img"></div>
+        </div>
+
+        <div class="left-article">
+          <div class="article-1">
+            <div class="child-author">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p>Patrícia Williams in Mystic Minds</p>
+              </div>
+            </div>
+            <div class="title">
+              <h2>Looking at a Familiar Place From a New Angle</h2>
+            </div>
+            <div class="caption">
+              <p>A fly fisher discovers the wonders of a river’s surface</p>
+            </div>
+
+            <div class="trending-status-left">
+              <p>Jan 25</p>
+
+              <div class="dot"><p>.</p></div>
+
+              <p>12 min read</p>
+            </div>
+          </div>
+          <div class="article-img"></div>
+        </div>
+      </div>
+      <div class="right-section">
+
+
+
+        <div class="upper-section">
+            <h4>Discover more of what matters to you</h4>
+            <br>
+            <button class="btn btn-black btt">Programming</button>
+            <button class="btn btn-black btt">Data Science</button>
+            <button class="btn btn-black btt">Technology</button>
+            <button class="btn btn-black btt">Self Improvement</button>
+            <button class="btn btn-black btt">Writing</button>
+            <button class="btn btn-black btt">Relationships</button>
+            <button class="btn btn-black btt">Machine Learning</button>
+            <button class="btn btn-black btt">Productivity</button>
+            <button class="btn btn-black btt">Politcs</button>
+
+            <br> <br>
+
+            <a href="#" style="color: green; text-decoration: none; font-size: small;">See More Topics</a>
+
+
+            <br><br>
+
+            <hr style="color: #6B6B6B;">
+            <br>
+            <br>
+
+
+            <a href="#">Help</a>
+            <a href="#">Status</a>
+            <a href="#">About</a>
+            <a href="#">Career</a>
+            <a href="#">Blog</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Text to Speech</a>
+            <a href="#">Teams</a>
+         
+            
+            
+        </div>
+
+
+      </div>
+    </div>
+  </body>
 </html>

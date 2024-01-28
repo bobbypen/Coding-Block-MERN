@@ -19,6 +19,8 @@
     align-items: center;
     height: 75px;
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
     
 
 }
@@ -78,7 +80,7 @@ button {
     justify-content: space-around;
     border-bottom: 1px solid black;
     width: 100%;
-    height: 550px;
+    height: 450px;
     background-color: #FFC017;                                           
 
 
@@ -96,7 +98,7 @@ button {
 }
 
 .main-h2{
-    font-size: 106px;
+    font-size: 110px;
     font-weight: 400;
     /* font-family: 'Poppins', sans-serif; */
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -126,6 +128,251 @@ button {
     font-size: 17px;
     padding: 0.6em 1.4em;
     width: 200px;
+    
+    
+}
+
+
+
+/* --------------------END OF MAIN PAGE ------------------------------ */
+
+
+/*  ----------------------Trending Secction _________________----------  */
+
+.trending{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    height: 350px;
+    display: flex;
+    
+
+}
+
+
+.trending-container{
+    width: 90%;
+    margin: auto;
+height: 90%;
+    /* border: 1px solid black; */
+}
+
+.parent{
+    width: 100%;
+    margin: auto;
+height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    justify-content: space-between
+}
+
+
+
+
+.child-1{ 
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* display: inline-block; */
+}
+
+
+
+
+.trending-img{
+        background-repeat: no-repeat;
+            /* border: 1px solid black; */
+            background-size: contain; 
+            background-image: url(/assest/arrow-trend-up.svg);
+            
+}
+
+
+.trending-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.trending-h1{
+    margin-left: 14px;
+}
+
+
+
+.author-img{
+    background-image: url(https://source.unsplash.com/300x300/?random);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.author-info{
+   
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.child-author{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+
+
+}
+
+.child{
+    height: 30%;
+}
+
+
+.trending-h6{
+    height: auto;
+   color: #242424;
+   font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    /* border: 1px solid red; */
+    white-space: wrap; 
+   font-weight: bolder;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+   
+}
+
+.trending-status{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* height: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+
+}
+
+.dot{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 20px;
+    font-weight: bolder;
+    
+   
+   
+   
+}
+
+
+.article{
+    margin-right: 5px;
+    color: #F2F2F2;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* -------------------hero section--------------------- */
+
+
+.hero-section{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid black; */
+    height: 100vh;
+}
+
+.left-section{
+    width: 60%;
+    float: left;
+    /* border: 1px solid blueviolet; */
+    height: auto;
+}
+
+.right-section{
+    width: 39%;
+    height: 100vh;
+    float: right;
+    /* border: 1px solid blueviolet; */
+
+}
+
+.title{
+    font-size: 13px;
+    font-weight: 900;
+    color: #242424;
+}
+
+.caption{
+    color: #6B6B6B;
+}
+
+.trending-status-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* height: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 8px;
+
+}
+
+
+
+.article-1{
+    /* background-color: #f8d7da; */
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.article-parent{
+    display: flex;
+    
+}
+
+
+.left-article{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.article-img{
+    height: 100px;
+    width: 12vw;
+    /* border: 1px solid #242424; */
+    /* float: right; */
+    margin: auto;
+    background-image: url(https://source.unsplash.com/500x400/?love);
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+    
+}
+ 
+.btt{
+    
+    color: black;
+    background-color: #F2F2F2;
+    width: fit-content;
+}
+
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: #6B6B6B;
     
     
 }
